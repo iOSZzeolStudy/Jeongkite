@@ -34,7 +34,7 @@
                                     </segments>
                                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <connections>
-                                        <action selector="scopeChanged:" destination="c19-vd-Wl0" eventType="valueChanged" id="Tgf-oB-JsC"/>
+                                        <action selector="scopeChangedWithSender:" destination="c19-vd-Wl0" eventType="valueChanged" id="6cV-rn-8y8"/>
                                     </connections>
                                 </segmentedControl>
                             </subviews>
