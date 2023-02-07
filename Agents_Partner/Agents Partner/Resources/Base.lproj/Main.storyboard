@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,6 +23,7 @@
                             <subviews>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="y3R-Hb-5oA">
                                     <rect key="frame" x="57.5" y="64" width="260" height="29"/>
+                                    <color key="backgroundColor" name="RayGreen"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="28" id="JvJ-I5-BgX"/>
                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="k0V-5i-s9h"/>
@@ -30,6 +32,7 @@
                                         <segment title="A-Z"/>
                                         <segment title="Date Added"/>
                                     </segments>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <connections>
                                         <action selector="scopeChanged:" destination="c19-vd-Wl0" eventType="valueChanged" id="Tgf-oB-JsC"/>
                                     </connections>
