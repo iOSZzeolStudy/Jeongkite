@@ -20,6 +20,7 @@
 		553A7776217FA517008B1BAF /* SpecimenAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A776F217FA517008B1BAF /* SpecimenAnnotation.swift */; };
 		DD7BE3592990ABAE00198E14 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DD7BE3582990ABAE00198E14 /* Realm */; };
 		DD7BE35B2990ABAE00198E14 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD7BE35A2990ABAE00198E14 /* RealmSwift */; };
+		DD7BE35D2992260E00198E14 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7BE35C2992260E00198E14 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		553A776D217FA517008B1BAF /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		553A776E217FA517008B1BAF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		553A776F217FA517008B1BAF /* SpecimenAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecimenAnnotation.swift; sourceTree = "<group>"; };
+		DD7BE35C2992260E00198E14 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				553A7769217FA517008B1BAF /* Specimen.swift */,
+				DD7BE35C2992260E00198E14 /* Category.swift */,
 				553A776F217FA517008B1BAF /* SpecimenAnnotation.swift */,
 			);
 			path = Model;
@@ -209,6 +212,7 @@
 				553A7773217FA517008B1BAF /* LogCell.swift in Sources */,
 				553A7755217F98CA008B1BAF /* AppDelegate.swift in Sources */,
 				553A7774217FA517008B1BAF /* LogViewController.swift in Sources */,
+				DD7BE35D2992260E00198E14 /* Category.swift in Sources */,
 				553A7771217FA517008B1BAF /* CategoriesTableViewController.swift in Sources */,
 				553A7775217FA517008B1BAF /* MapViewController.swift in Sources */,
 				553A7776217FA517008B1BAF /* SpecimenAnnotation.swift in Sources */,
