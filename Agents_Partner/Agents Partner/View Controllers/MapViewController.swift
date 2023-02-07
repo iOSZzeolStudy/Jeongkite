@@ -111,7 +111,7 @@ class MapViewController: UIViewController {
     }
     
     func populateMap() {
-        mapView.removeAnnotation(mapView.annotations as! MKAnnotation)
+        mapView.removeAnnotations(mapView.annotations)
         
         specimens = try! Realm().objects(Specimen.self)
         
