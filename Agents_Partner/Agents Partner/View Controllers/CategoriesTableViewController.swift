@@ -7,7 +7,7 @@ import RealmSwift
 class CategoriesTableViewController: UITableViewController {
     
     // MARK: - Variables And Properties
-    let realm = try! Realm()    // do/catch 사용해서 에러 핸들링 하기
+    let realm: Realm = try! Realm()    // TODO: do/catch 사용해서 에러 핸들링 하기
     lazy var categories: Results<Category> = { self.realm.objects(Category.self) }()
     var selectedCategory: Category!
     
@@ -22,9 +22,9 @@ class CategoriesTableViewController: UITableViewController {
     private func populateDefaultCategories() {
         if categories.isEmpty {
             try! realm.write() {
-                let defaultCategories = ["Birds", "Mammals", "Flora", "Reptiles", "Arachnids"]
+                let defaultCategories: [String] = ["Birds", "Mammals", "Flora", "Reptiles", "Arachnids"]
                 for category in defaultCategories {
-                    let newCategory = Category()
+                    let newCategory: Category = Category()
                     newCategory.name = category
                     
                     realm.add(newCategory)
