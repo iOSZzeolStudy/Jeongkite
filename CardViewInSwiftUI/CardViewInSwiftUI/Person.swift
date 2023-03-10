@@ -21,6 +21,6 @@ let person2 = Person(headerImage: "headerImage2", profileImage: "profileImage2",
 let people: [Person] = [
     Person(headerImage: "headerImage1", profileImage: "profileImage1", name: "Joe Dash", followerCount: 326, jobTitle: "Photographer"),
     Person(headerImage: "headerImage2", profileImage: "profileImage2", name: "Ellie Cooper", followerCount: 289, jobTitle: "Accountant"),
-    Person(headerImage: "headerImage3", profileImage: "profileImage3", name: "Ellie Cooper", followerCount: 289, jobTitle: "Accountant"),
-    Person(headerImage: "headerImage4", profileImage: "profileImage4", name: "Ellie Cooper", followerCount: 289, jobTitle: "Accountant")
+    Person(headerImage: "headerImage3", profileImage: "profileImage3", name: "Daniel Arsha", followerCount: 354, jobTitle: "Accountant"),
+    Person(headerImage: "headerImage4", profileImage: "profileImage4", name: "Johan Duffle", followerCount: 513, jobTitle: "Accountant")
 ]

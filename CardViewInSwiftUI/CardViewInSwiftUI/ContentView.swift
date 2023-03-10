@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         List {
-            ForEach(people, id: \.name) { person in
+            ForEach(people, id: \.followerCount) { person in
                 PersonCardView(person: person)
                     .listRowSeparator(.hidden)
             }
