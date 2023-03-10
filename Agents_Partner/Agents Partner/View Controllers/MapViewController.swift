@@ -142,9 +142,16 @@ class MapViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "NewEntry") {
+            print("👍NewEntry")
             let controller = segue.destination as! AddNewEntryViewController
             let specimenAnnotation = sender as! SpecimenAnnotation
             controller.selectedAnnotation = specimenAnnotation
+            controller.specimen = specimenAnnotation.specimen
+        } else if (segue.identifier == "Edit") {
+            print("👍Edit")
+            let controller = segue.destination as! AddNewEntryViewController
+            let specimenAnnotation = sender as! SpecimenAnnotation
+            controller.specimen = specimenAnnotation.specimen
         }
     }
 }
